@@ -1,3 +1,9 @@
+"""
+cron: 0 0 0 0 0 0 2055  test.py
+new Env('测试')
+updatetime:2023/5/21
+by @StarzL1kerain
+"""
 import os
 from dotenv import load_dotenv
 load_dotenv()
