@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 0 0 8,20 * * ?  abyssworld.py
+cron: 0 0 8,20 * * ?    abyssworld.py
 new Env('abyssworld每日签到')
 updatetime:2023/5/21
 by @StarzL1kerain

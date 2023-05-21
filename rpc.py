@@ -1,6 +1,4 @@
 """
-cron: 0 0 0 0 0 0 2055  rpc.py
-new Env('rpc')
 updatetime:2023/5/21
 by @junjie9021
 """
