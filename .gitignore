@@ -7,3 +7,4 @@
 
 # 忽略所有的 .txt 文件在doc/目录下
 doc/*.txt
+develop/
