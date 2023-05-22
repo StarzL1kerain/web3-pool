@@ -5,3 +5,9 @@
 ### abyssworld
         abyssauths=11111@11111
         多号用@分隔
+
+
+
+## 依赖
+web3
+python-dotenv
