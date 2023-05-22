@@ -4,6 +4,12 @@ cron: 0 0 8,20 * * ?    abyssworld.py
 new Env('abyssworld每日签到')
 updatetime:2023/5/21
 by @StarzL1kerain
+
+抓GET包，打开APP即可获取数据，只要请求头Authorization的值
+
+比如：https://ca.abyssworld.games/
+
+多账号@隔开，多账户请多开应用，退出会使Authorization失效
 """
 import random
 import requests
@@ -82,5 +88,5 @@ if __name__ == '__main__':
     for authorization in authorizations:
         # print(authorization)
         res = app.mint(authorization)
-        total_res.append(res)
+        total_res.append(res+'\n')
     print(total_res)
