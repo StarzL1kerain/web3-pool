@@ -1,4 +1,3 @@
-# -*- coding:utf-8 -*-
 """
 cron: 0 */170 * * *   zeta5.py
 new Env('zeta')

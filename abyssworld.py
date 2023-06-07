@@ -1,10 +1,11 @@
-# -*- coding:utf-8 -*-
+# -- coding: utf-8 --
+# -------------------------------
+# @Author : @StarzL1kerain https://github.com/StarzL1kerain/web3-pool
+# @Time : 2023/5/21
+# -------------------------------
+# cron "0 0 1 1 *" script-path=xxx.py,tag=匹配cron用
+# const $ = new Env('abyssworld每日签到');
 """
-cron: 0 0 1 1 *    abyssworld.py
-new Env('abyssworld每日签到')
-updatetime:2023/5/21
-by @StarzL1kerain
-
 抓GET包，打开APP即可获取数据，只要请求头Authorization的值
 
 比如：https://ca.abyssworld.games/

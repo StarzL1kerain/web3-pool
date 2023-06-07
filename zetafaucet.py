@@ -1,10 +1,12 @@
-# -*- coding:utf-8 -*-
-"""
-cron: 0 */49 * * *    zetafaucet.py
-new Env('zeta水')
-updatetime:2023/6/7
-by @StarzL1kerain
+# -- coding: utf-8 --
+# -------------------------------
+# @Author : @StarzL1kerain https://github.com/StarzL1kerain/web3-pool
+# @Time : 2023/6/7
+# -------------------------------
+# cron "0 */49 * * *" script-path=xxx.py,tag=匹配cron用
+# const $ = new Env('zeta水');
 
+"""
 抓GET包，只要请求头cookie的值
 和私钥
 """
