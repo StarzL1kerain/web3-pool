@@ -1,3 +1,13 @@
+# -*- coding:utf-8 -*-
+"""
+cron: 0 */49 * * *    zetafaucet.py
+new Env('zeta水')
+updatetime:2023/6/7
+by @StarzL1kerain
+
+抓GET包，只要请求头cookie的值
+和私钥
+"""
 from rpc import Rpc
 import sys
 import time
