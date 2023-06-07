@@ -1,3 +1,15 @@
+# -*- coding:utf-8 -*-
+"""
+cron: 0 */170 * * *   zeta5.py
+new Env('zeta')
+updatetime:2023/6/7
+by @StarzL1kerain
+
+持续迭代中
+抓GET包，只要请求头cookie的值
+和私钥
+
+"""
 # zeta.py
 import time
 import math
