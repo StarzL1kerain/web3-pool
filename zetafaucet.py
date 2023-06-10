@@ -3,7 +3,7 @@
 # @Author : @StarzL1kerain https://github.com/StarzL1kerain/web3-pool
 # @Time : 2023/6/7
 # -------------------------------
-# cron "0 */49 * * *" script-path=xxx.py,tag=匹配cron用
+# cron "0 0 * * 1,3,5" script-path=xxx.py,tag=匹配cron用
 # const $ = new Env('zeta水');
 
 """
@@ -81,8 +81,6 @@ class Dapp:
         # time.sleep(300)
 
     # 登录获取
-
-
     def login(self, cookie):
         message = '登录获取：'
         response = requests.get(
